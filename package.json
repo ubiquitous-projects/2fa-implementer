@@ -1,0 +1,36 @@
+{
+    "name": "2fa-implementer",
+    "version": "1.0.0",
+    "description": "A NodeJS-based backend for implementing 2-factor authentication.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index",
+        "prod": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ubiquitous-projects/2fa-implementer.git"
+    },
+    "keywords": [
+        "2fa",
+        "implementer",
+        "2fa-implementer"
+    ],
+    "author": "Michael K Macharia",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ubiquitous-projects/2fa-implementer/issues"
+    },
+    "homepage": "https://github.com/ubiquitous-projects/2fa-implementer#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "express": "^4.17.3",
+        "node-json-db": "^1.5.0",
+        "speakeasy": "^2.0.0",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
